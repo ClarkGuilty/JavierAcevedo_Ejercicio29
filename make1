@@ -1,0 +1,4 @@
+all: 
+	gcc -o satan.x HelloWorld.c -fopenmp
+	./satan.x
+	rm satan.x
